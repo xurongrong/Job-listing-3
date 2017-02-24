@@ -45,7 +45,6 @@ class Admin::JobsController < ApplicationController
     redirect_to admin_jobs_path
   end
 
-
   private
 
   def job_params
