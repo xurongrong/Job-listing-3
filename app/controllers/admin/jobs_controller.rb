@@ -5,7 +5,7 @@ class Admin::JobsController < ApplicationController
 
   def publish
     @job = Job.find(params[:id])
-    @Job.publish!
+    @job.publish!
 
     redirect_to :back
   end
